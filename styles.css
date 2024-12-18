@@ -1,0 +1,159 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Body and Font Settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+.header {
+    background-color: #003366; /* Navy Blue */
+    color: #d4a373; /* Light Brown */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    height: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #d4a373;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Home/About Section */
+.home-about {
+    position: relative;
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    text-align: center;
+    height: 75vh; /* Set height to 150% of the viewport height */
+    padding: 20px; /* Keep the padding smaller if you use height */
+}
+
+
+/* Light Background Overlay for Text */
+.home-about .text-overlay {
+    background: rgba(255, 255, 255, 0.6); /* Light transparent background */
+    padding: 20px; /* Padding for text */
+    border-radius: 8px; /* Rounded corners for the background */
+    display: inline-block; /* To shrink-wrap the background around the text */
+}
+
+/* Heading Styling */
+.home-about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+.home-about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+/* Featured Products Section Styling */
+.featured-products {
+    padding: 50px 0;
+    background-color: #f4f4f4; /* Light gray background for the section */
+}
+
+.featured-products h2 {
+    background-color: #003366; /* Navy blue background for the heading */
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #D2B48C; /* Light brown text color */
+    padding: 15px;
+    border: 2px solid #003366; /* Navy blue border */
+    border-radius: 8px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 3 images per row, responsive */
+    grid-gap: 20px; /* Spacing between grid items */
+    padding: 20px;
+}
+
+.product {
+    padding: 15px;
+    border: 3px solid #d4a373; /* Navy blue border for each product */
+    background-color: #003366; /* White background for each product */
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.product img {
+    width: auto; /* Maintain the natural width of the image */
+    border: 5px solid #d4a373;
+    height: auto; /* Maintain the natural height of the image */
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    max-height: 250px; /* Restrict the height for consistency */
+    display: block; /* Remove extra white spaces */
+    margin: 0 auto; /* Center the image */
+    border-radius: 8px; /* Rounded corners on the image */
+}
+
+
+.product h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #d4a373; /* Navy blue text */
+}
+/* Footer Section */
+.footer {
+    background-color: #003366; /* Navy Blue */
+    color: #d4a373; /* Light Brown */
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: #d4a373;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 5px 0; /* Add margin for better spacing */
+}
+
