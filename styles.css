@@ -21,7 +21,7 @@ body {
 
 /* Header Section */
 .header {
-    background-color: #003366; /* Navy Blue */
+    background-color: #010163; /* Navy Blue */
     color: #d4a373; /* Light Brown */
     padding: 20px;
     display: flex;
@@ -90,13 +90,13 @@ body {
 }
 
 .featured-products h2 {
-    background-color: #003366; /* Navy blue background for the heading */
+    background-color: #010163; /* Navy blue background for the heading */
     display: flex;
     justify-content: center;
     font-size: 15px;
     color: #D2B48C; /* Light brown text color */
     padding: 15px;
-    border: 2px solid #003366; /* Navy blue border */
+    border: 2px solid #010163; /* Navy blue border */
     border-radius: 8px;
 }
 
@@ -110,7 +110,7 @@ body {
 .product {
     padding: 15px;
     border: 3px solid #d4a373; /* Navy blue border for each product */
-    background-color: #003366; /* White background for each product */
+    background-color: #010163; /* White background for each product */
     text-align: center;
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
@@ -137,7 +137,7 @@ body {
 }
 /* Footer Section */
 .footer {
-    background-color: #003366; /* Navy Blue */
+    background-color: #010163; /* Navy Blue */
     color: #d4a373; /* Light Brown */
     text-align: center;
     padding: 20px;
